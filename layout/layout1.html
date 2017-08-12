@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>layout-pic</title>
+	<style>
+	html body{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.layout {
+		width: 800px;
+		margin:0px auto;
+		padding: 0px;
+	}
+	.layout h1  {
+	    color: #6b6060;
+	    text-align: center;
+	    padding-bottom: 10px;
+	    border-bottom: 1px solid #ccc;
+    }
+    .contant h2{    	
+	    color: #6b6060;
+	    text-align: center;
+    }
+
+	.contant:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+	ul, li {
+    margin: 0;
+    padding: 0;
+}
+    .contant{
+    	margin-left: -10px;	
+		margin-top: 30px;
+    }
+    .pic{
+		width: 260px;
+		list-style: none;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		float: left;
+		margin-left: 10px;
+		margin-top: 30px;
+		}
+	.pic img{
+		width: 100%;
+		opacity: 0.75;
+	}
+	</style>
+</head>
+<body>
+<div class="layout">
+	<h1>风景列表</h1>
+	<ul class="contant">
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+		<li class="pic"><img src="./pic.jpg" alt=""><h2>风景如画</h2></li>
+	</ul>
+</div>
+	
+</body>
+</html>
